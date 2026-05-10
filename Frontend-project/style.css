@@ -1,0 +1,26 @@
+:root {
+    --mocha-mousse: #A5856F;
+    --ethereal-blue: #A0D4E0;
+    --moonlit-grey: #F2F0EA;
+    --dark-text: #222222;
+    --white: #FFFFFF;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Open Sans', sans-serif; background-color: var(--moonlit-grey); color: var(--dark-text); line-height: 1.6; }
+h1, h2, h3 { font-family: 'Montserrat', sans-serif; margin-bottom: 1rem; color: var(--dark-text); }
+
+.main-header { background-color: var(--white); padding: 1.5rem 2rem; display: flex; justify-content: space-between; border-bottom: 3px solid var(--ethereal-blue); }
+.logo { font-size: 1.5rem; font-weight: 700; }
+.main-content { padding: 2rem; max-width: 1200px; margin: 0 auto; }
+
+.hero-text h1 { font-size: 3rem; }
+.integration-section { background: var(--white); padding: 2rem; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-top: 2rem;}
+
+form { display: flex; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap; }
+input { padding: 0.8rem; border: 1px solid #ccc; border-radius: 4px; flex: 1; min-width: 200px; }
+.primary-btn { background-color: var(--mocha-mousse); color: var(--white); border: none; padding: 0.8rem 2rem; cursor: pointer; border-radius: 4px; font-weight: bold; }
+
+.cards-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+.tool-card { padding: 1.5rem; border: 1px solid #eee; border-left: 4px solid var(--ethereal-blue); border-radius: 4px; background: #fafafa; }
+#statusMessage { font-weight: bold; margin-bottom: 2rem; }

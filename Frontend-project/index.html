@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodeLabs | Full Stack System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">DecodeLabs.</div>
+        <nav class="main-nav">
+            <a href="#">System Console</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-section">
+            <article class="hero-text">
+                <h1>Full Stack Architecture</h1>
+                <p>Welcome to Project 4: Frontend and Backend API Integration.</p>
+            </article>
+        </section>
+
+        <section class="integration-section">
+            <h2>Add New User (Send Data to Database)</h2>
+            <form id="userForm">
+                <input type="text" id="nameInput" placeholder="Enter Name" required>
+                <input type="text" id="roleInput" placeholder="Enter Role" required>
+                <button type="submit" class="primary-btn">Create User</button>
+            </form>
+            <p id="statusMessage"></p>
+
+            <h2>Live Database Vault (Dynamic Data)</h2>
+            <div id="usersContainer" class="cards-container">
+                </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
